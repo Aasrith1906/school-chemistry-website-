@@ -1,0 +1,19 @@
+{% import "bootstrap/wtf.html" as wtf %}
+{% extends "bootstrap/base.html" %}
+
+{% block content %}
+
+<div class = "container">
+
+    
+
+    {% for pdf_file in pdf_list %}
+
+    <a  class="list-group-item list-group-item-action" href="pdf{{pdf_file}}">{{pdf_file}}</a>
+    
+    {% endfor %}
+    
+
+</div>
+
+{% endblock %}
