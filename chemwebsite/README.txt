@@ -12,3 +12,5 @@ run the command - python app.py
 
 then the website will run locally on your system at localhost:5000
 
+to add pdf files just drop them in the chemwebsite folder it will appear on the html page for download
+
